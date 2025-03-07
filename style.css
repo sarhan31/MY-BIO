@@ -1,0 +1,211 @@
+
+#container {
+    margin: 0;
+   padding: 0; 
+   height: 00vh;
+   width: 100wh;
+
+   bottom: -470px;
+   display: block;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   margin-top: -470px;
+   border: 4px black solid;
+   border-radius: 25px;
+   position: relative;
+   align-content: center;
+   align-self: flex-start;
+   flex-direction: column;
+   justify-content:space-around;
+
+}
+
+img {
+   border-radius: 10%;
+   height: 340px;
+   left: 100px;
+   padding: 25px;
+   border-radius: 100%;
+
+}
+
+H1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+   text-align: center;
+   right: 100px;
+   color: black;
+  
+
+}
+
+   
+
+#DIV2 {
+   justify-content: center;
+
+}
+#box4{
+   height: 100vh;
+   width: 100vw;
+   text-align: left;
+   font-size: 20px;
+   
+}
+
+table {
+     width: 90%;
+     margin: 20px auto;
+     border-collapse: collapse;
+     text-align: center; color: #000000;
+     align-content: center;
+   }
+
+
+#img2{
+   height: 400px;
+}
+body {
+   background-image: url(SARHAN24.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-blend-mode: none;
+   font-size: 30px;
+  
+} 
+button{
+   text-align: center;
+   align-content: center;
+   justify-content: space-around;
+   flex-direction: column;
+   margin-left: 500px;
+   margin-top: 50px;
+   height: 100px;
+   width: 400px;
+   font-size: larger;
+   font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   background-color: rgb(179, 174, 174);
+   border: 10px BLACK SOLOD;
+   border-radius: 20%;
+   opacity: 0.9;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+   position: relative;
+   animation: drop 2s linear forwards;
+}
+
+#S1{
+  
+   margin-top: 300px;
+   font-size: larger;
+   font-family:  "russo one", sans-serif;
+   text-wrap: nowrap;
+   overflow: hidden; 
+   text-align: center;
+   justify-content: center;
+   width: 70ch;
+   animation: typing 2s steps(20) forwards alternate;
+   color: black;
+    text-shadow: 0 10px 30px black;
+   
+}
+vxghv
+
+@keyframes typing {
+   from{
+      width: 0ch;
+   
+   }  
+   
+   
+}
+@keyframes drop {
+   0% {
+       transform: translateY(-200px);
+       opacity: 0;
+   }
+   50% {
+       transform: translateY(0px);
+       opacity: 1;
+   }
+   65% {
+       transform: translateY(-17px);
+       opacity: 1;
+   }
+   75% {
+       transform: translateY(-22px);
+       opacity: 1;
+   }
+   100% {
+       transform: translateY(0px);
+       opacity: 1;
+   }
+}
+#box1{
+   animation: drop 2s linear forwards;
+   
+}
+#s1{
+   animation: typing 2s steps(20) forwards alternate;
+   text-wrap: nowrap;
+   overflow: hidden; 
+   width: 70ch;
+   
+}
+#s1{
+   text-shadow: 0 10px 30px black;
+}
+
+h1{
+   text-shadow: 0 10px 30px black;
+}
+/* pre:hover{
+   text-shadow: 0 0 7px rgb(115, 17, 213);
+   text-shadow: 0 0 21px rgb(110, 92, 226);
+   text-shadow: 0 0 30px rgb(15, 227, 227);
+} */
+button:hover {
+   transform: scale(1.3);
+   transition: 0.5s;
+   background-color: rgb(86, 86, 175);
+}
+   
+
+#box1:hover {
+   text-decoration: none;
+   width: 400px;
+   transition: 3s ease-in-out;
+   -webkit-transition:3s ease-in-out ;
+   background-color: rgb(77, 73, 73);
+
+}
+#img2:hover{
+   text-decoration: none;
+   width: 400px;
+   transition: 3s ease-in-out;
+   -webkit-transition:3s ease-in-out ;
+   background-color: rgb(77, 73, 73);
+}
+#box2{
+   text-shadow: 0 10px 30px black;}
+   #box3{
+      text-shadow: 0 10px 30px black;
+   }
+
+   #box4{
+      text-shadow: 0 10px 30px black;
+   }
+#box5{
+   text-shadow: 0 10px 30px black;
+}
+@media screen and (min-width: 600px) {
+
+   
+body{
+   flex-direction: column;
+}
+}
+   
