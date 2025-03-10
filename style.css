@@ -152,7 +152,7 @@ vxghv
    animation: typing 2s steps(20) forwards alternate;
    text-wrap: nowrap;
    overflow: hidden; 
-   width: 70ch;
+   width: 85ch;
    
 }
 #s1{
@@ -208,53 +208,102 @@ body{
    flex-direction: column;
 }
 }
-   @media screen and (min-width:768px){
-      #s1{
-         justify-content: space-around;
-         text-align: center;
-      }
-      button{
-         justify-content: space-around;
-         text-align: center;
-      }
-
-      
+@media (min-width: 768px) {
+   body {
+     font-size: 16px;
    }
-   @media  screen and (min-width:767px) {
-      #container{
-         justify-content: space-around;
-      }
-      #s1{
-         justify-content: space-around;
-         text-align: center;
-      }
-      button{
-         justify-content: space-around;
-         text-align: center;
-      }
-      #s1{
-         justify-content: space-around;
-         text-align: center;
-      }
-      #box1{
-         justify-content: space-around;
-         text-align: center;
-      }
-      #box2{
-         justify-content: space-around;
-         text-align: center;
-      }
-      #box3{
-         justify-content: space-around;
-         text-align: center;
-      }
-      #box4{
-         justify-content: space-around;
-         text-align: center;
-      }
-      #box5{
-         justify-content: space-around;
-         text-align: center;
-      }
-      
+ 
+   #container {
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
    }
+ 
+   #s1 {
+     width: 30%;
+   }
+ 
+   #DIV1, #DIV2 {
+     width: 65%;
+   }
+ 
+   table {
+     width: 100%;
+   }
+ 
+   table th, table td {
+     padding: 15px;
+     text-align: left;
+   }
+ 
+   header h1 {
+     font-size: 36px;
+   }
+ 
+   #box1 {
+     width: 100%;
+     max-height: 300px;
+     object-fit: cover;
+   }
+ 
+   img {
+     width: 100%;
+     max-height: 200px;
+     object-fit: cover;
+   }
+ 
+   footer {
+     text-align: center;
+     margin-top: 20px;
+   }
+ }
+      
+   
+   @media (max-width: 767px) {
+      body {
+        font-size: 14px;
+      }
+    
+      header h1 {
+        font-size: 24px;
+      }
+    
+      #container {
+        padding: 10px;
+      }
+    
+      #s1 {
+        text-align: center;
+        padding: 10px;
+      }
+    
+      #box1 {
+        width: 100%;
+        height: auto;
+      }
+    
+      table {
+        width: 100%;
+        font-size: 12px;
+      }
+    
+      #box4, #box3, #box5 {
+        width: 100%;
+        border-collapse: collapse;
+      }
+    
+      table th, table td {
+        padding: 8px;
+        text-align: left;
+      }
+    
+      img {
+        width: 100%;
+        height: auto;
+      }
+    
+      #DIV2, #DIV1 {
+        margin-top: 10px;
+      }
+    }
+    
