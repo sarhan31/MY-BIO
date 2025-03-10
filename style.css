@@ -218,6 +218,7 @@ button:hover {
       #s1 {
         text-align: center;
         padding: 10px;
+        animation: typing 2s steps(10) forwards alternate;
       }
     
       #box1 {
