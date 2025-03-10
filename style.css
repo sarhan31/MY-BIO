@@ -208,4 +208,25 @@ body{
    flex-direction: column;
 }
 }
-   
+   @media screen and (min-width:768px){
+      #s1{
+         justify-content: space-around;
+         text-align: center;
+      }
+      button{
+         justify-content: space-around;
+         text-align: center;
+      }
+
+      
+   }
+   @media  screen and (min-width:767px) {
+      #container{
+         justify-content: space-around;
+      }
+      #s1{
+         justify-content: space-around;
+         text-align: center;
+      }
+      
+   }
