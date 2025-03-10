@@ -218,7 +218,7 @@ button:hover {
       #s1 {
         text-align: center;
         padding: 10px;
-        animation: typing 2s steps(10) forwards alternate;
+        animation: typing 2s steps(20) forwards alternate;
         width: 25ch;
       }
     
