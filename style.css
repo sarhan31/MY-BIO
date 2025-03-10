@@ -228,5 +228,33 @@ body{
          justify-content: space-around;
          text-align: center;
       }
+      button{
+         justify-content: space-around;
+         text-align: center;
+      }
+      #s1{
+         justify-content: space-around;
+         text-align: center;
+      }
+      #box1{
+         justify-content: space-around;
+         text-align: center;
+      }
+      #box2{
+         justify-content: space-around;
+         text-align: center;
+      }
+      #box3{
+         justify-content: space-around;
+         text-align: center;
+      }
+      #box4{
+         justify-content: space-around;
+         text-align: center;
+      }
+      #box5{
+         justify-content: space-around;
+         text-align: center;
+      }
       
    }
