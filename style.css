@@ -219,7 +219,7 @@ button:hover {
         text-align: center;
         padding: 10px;
         animation: typing 2s steps(20) forwards alternate;
-        width: 25ch;
+        width: 30ch;
       }
     
       #box1 {
