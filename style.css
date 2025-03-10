@@ -112,15 +112,12 @@ button{
     text-shadow: 0 10px 30px black;
    
 }
-vxghv
+
 
 @keyframes typing {
-   from{
+   from {
       width: 0ch;
-   
    }  
-   
-   
 }
 @keyframes drop {
    0% {
